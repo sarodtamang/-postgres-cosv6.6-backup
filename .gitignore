@@ -1,0 +1,15 @@
+# Ignore large backup files
+*.dump
+*.backup
+*.tar
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
