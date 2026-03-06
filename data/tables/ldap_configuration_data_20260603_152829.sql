@@ -1,0 +1,42 @@
+--
+-- PostgreSQL database dump
+--
+
+\restrict 2KUZC6rXgkT9fqLB5c6KgGfUKKZieCwjbHGdrKGaowVOfFLi04FsVuT5n570x5K
+
+-- Dumped from database version 17.6
+-- Dumped by pg_dump version 17.6
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET transaction_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- Data for Name: ldap_configuration; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.ldap_configuration (id, institutionid, ldap_host, ldap_enabled, ldap_base_dn, ldap_username, ldap_password, ldap_port) FROM stdin;
+\.
+
+
+--
+-- Name: ldap_configuration_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
+--
+
+SELECT pg_catalog.setval('public.ldap_configuration_id_seq', 1, false);
+
+
+--
+-- PostgreSQL database dump complete
+--
+
+\unrestrict 2KUZC6rXgkT9fqLB5c6KgGfUKKZieCwjbHGdrKGaowVOfFLi04FsVuT5n570x5K
+
