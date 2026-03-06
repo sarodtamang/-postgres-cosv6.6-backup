@@ -4,7 +4,7 @@
 - **Database:** cos
 - **Version:** 6.6
 - **Backup Date:** 2026-06-03
-- **Backup Time:** 15:07:52
+- **Backup Time:** 15:26:03
 - **Git Branch:** postgres-cos6.6
 
 ## Backup Files
@@ -15,7 +15,7 @@
 - Views: views_20260603.sql
 - Sequences: sequences_20260603.sql
 - Indexes: indexes_20260603.sql
-- Full Backup: cos_cos_full_20260603_150752.dump (1 MB)
+- Full Backup: cos_cos_full_20260603_152603.dump (1 MB)
 
 ## Restoration Instructions
 
@@ -27,4 +27,4 @@ psql -U postgres -d new_database -f migrations\tables\tables_20260603.sql
 psql -U postgres -d new_database -f migrations\functions\functions_20260603.sql
 
 ### Option 3: Restore Full Database
-pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_20260603_150752.dump
+pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_20260603_152603.dump
