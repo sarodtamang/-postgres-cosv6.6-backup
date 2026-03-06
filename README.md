@@ -4,24 +4,8 @@
 - **Database:** cos
 - **Version:** 6.6
 - **Backup Date:** 2026-06-03
-- **Backup Time:** 15:04:49
+- **Backup Time:** 15:07:52
 - **Git Branch:** postgres-cos6.6
-
-## Object Counts
-- **Tables:** 1
-- **Functions:** 1
-- **Views:** 1
-
-## Directory Structure
-- `/migrations/schema/` - Complete database schema
-- `/migrations/tables/` - Individual table definitions
-- `/migrations/functions/` - Stored procedures and functions
-- `/migrations/triggers/` - Database triggers
-- `/migrations/views/` - Database views
-- `/migrations/sequences/` - Sequence definitions
-- `/migrations/indexes/` - Indexes and constraints
-- `/migrations/types/` - Custom types and enums
-- `/full_backups/` - Complete database backups
 
 ## Backup Files
 - Complete Schema: complete_schema_20260603.sql
@@ -31,5 +15,16 @@
 - Views: views_20260603.sql
 - Sequences: sequences_20260603.sql
 - Indexes: indexes_20260603.sql
-- Types: types_20260603.sql
-- Full Backup: cos_cos_full_20260603_150449.dump (1 MB)
+- Full Backup: cos_cos_full_20260603_150752.dump (1 MB)
+
+## Restoration Instructions
+
+### Option 1: Restore Complete Schema
+psql -U postgres -d new_database -f migrations\schema\complete_schema_20260603.sql
+
+### Option 2: Restore Individual Components
+psql -U postgres -d new_database -f migrations\tables\tables_20260603.sql
+psql -U postgres -d new_database -f migrations\functions\functions_20260603.sql
+
+### Option 3: Restore Full Database
+pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_20260603_150752.dump
