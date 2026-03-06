@@ -19,7 +19,7 @@ psql -U postgres -d new_database -f migrations\functions\functions_20260603.sql
 
 ### Restore Full Database from Custom Format:
 ``
-pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_20260603_144552.dump
+pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_20260603_145858.dump
 ``
 
 ### Complete Database Restore (All Objects):

@@ -4,7 +4,7 @@
 - **Database:** cos
 - **Version:** 6.6
 - **Backup Date:** 2026-06-03
-- **Backup Time:** 14:45:52
+- **Backup Time:** 14:58:58
 - **Git Branch:** postgres-cos6.6
 
 ## Directory Structure
@@ -23,7 +23,7 @@
 - Triggers: triggers_20260603.sql
 - Views: views_20260603.sql
 - Tables: tables_20260603.sql
-- Full Backup: cos_cos_full_20260603_144552.dump (1 MB)
+- Full Backup: cos_cos_full_20260603_145858.dump (1 MB)
 
 ## Restoration Instructions
 See `docs\RESTORE.md` for detailed restoration steps.
