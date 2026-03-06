@@ -19,7 +19,7 @@ psql -U postgres -d new_database -f migrations\functions\functions_2026 =Fri.sql
 
 ### Restore Full Database from Custom Format:
 ``
-pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_2026 =Fri_144230.dump
+pg_restore -U postgres -d new_database -v full_backups\cos_cos_full_2026 =Fri_144303.dump
 ``
 
 ### Complete Database Restore (All Objects):
