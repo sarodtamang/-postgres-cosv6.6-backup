@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict mdxItqRkksnDMzkN4HD85oU8xoh6eNElmFs9YRL9tP2q3Mxv06RNB3pMGYqADin
+\restrict cZSycb13KEBXXW9c47ashC3jkA2NLxN7SXKRvstao30xYDaqwRlfKT4LL820BNk
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -18,22 +18,6 @@ SET check_function_bodies = false;
 SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
-
---
--- Name: public; Type: SCHEMA; Schema: -; Owner: pg_database_owner
---
-
-CREATE SCHEMA public;
-
-
-ALTER SCHEMA public OWNER TO pg_database_owner;
-
---
--- Name: SCHEMA public; Type: COMMENT; Schema: -; Owner: pg_database_owner
---
-
-COMMENT ON SCHEMA public IS 'standard public schema';
-
 
 --
 -- Name: analyze_dry_run_charges(bigint, integer); Type: FUNCTION; Schema: public; Owner: postgres
@@ -35005,5 +34989,5 @@ ALTER TABLE ONLY public.usertype
 -- PostgreSQL database dump complete
 --
 
-\unrestrict mdxItqRkksnDMzkN4HD85oU8xoh6eNElmFs9YRL9tP2q3Mxv06RNB3pMGYqADin
+\unrestrict cZSycb13KEBXXW9c47ashC3jkA2NLxN7SXKRvstao30xYDaqwRlfKT4LL820BNk
 
