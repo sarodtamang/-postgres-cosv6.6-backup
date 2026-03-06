@@ -3,7 +3,8 @@
 ## Database Information
 - **Database:** cos
 - **Version:** 6.6
-- **Backup Date:** ~0,4datetime:~4,2datetime:~6,2
+- **Backup Date:** 06-Fri-03
+- **Backup Time:** 14:38:50
 - **Git Branch:** postgres-cos6.6
 
 ## Directory Structure
@@ -17,12 +18,12 @@
 - `/config/` - Configuration files
 
 ## Backup Files
-- Schema: public_schema_~0,4datetime:~4,2datetime:~6,2.sql ( MB)
-- Functions: functions_~0,4datetime:~4,2datetime:~6,2.sql
-- Triggers: triggers_~0,4datetime:~4,2datetime:~6,2.sql
-- Views: views_~0,4datetime:~4,2datetime:~6,2.sql
-- Tables: tables_~0,4datetime:~4,2datetime:~6,2.sql
-- Full Backup: cos_cos_full_~0,4datetime:~4,2datetime:~6,2datetime:~8,2%datetime:~10,2%datetime:~12,2.dump ( MB)
+- Schema: public_schema_06-Fri-03.sql (1 MB)
+- Functions: functions_06-Fri-03.sql
+- Triggers: triggers_06-Fri-03.sql
+- Views: views_06-Fri-03.sql
+- Tables: tables_06-Fri-03.sql
+- Full Backup: cos_cos_full_06-Fri-03_143850.dump (1 MB)
 
 ## Restoration Instructions
 See `docs\RESTORE.md` for detailed restoration steps.
